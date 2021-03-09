@@ -13,3 +13,5 @@ my_id = ''
 
 if not os.path.exists(path):
 	os.makedirs(path)
+
+# hello, from personal pk
