@@ -23,6 +23,8 @@ vk = vk_session.get_api()  # Теперь можно обращаться к м�
                                         # классам
 vk_audio = audio.VkAudio(vk_session)
 
+os.chdir(path)
+
 qwe = vk_audio.search("nice", 10, 0)
 
 r = next(qwe)
